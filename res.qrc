@@ -1,0 +1,44 @@
+<RCC>
+    <qresource prefix="/Image">
+        <file>ico/34.ico</file>
+        <file>ico/35.ico</file>
+        <file>ico/36.ico</file>
+        <file>ico/37.ico</file>
+        <file>ico/38.ico</file>
+        <file>ico/39.ico</file>
+        <file>ico/40.ico</file>
+        <file>ico/41.ico</file>
+        <file>ico/42.ico</file>
+        <file>ico/43.ico</file>
+        <file>ico/44.ico</file>
+        <file>ico/45.ico</file>
+        <file>ico/46.ico</file>
+        <file>ico/47.ico</file>
+        <file>ico/48.ico</file>
+        <file>ico/49.ico</file>
+        <file>ico/50.ico</file>
+        <file>ico/51.ico</file>
+        <file>ico/52.ico</file>
+        <file>ico/53.ico</file>
+        <file>ico/54.ico</file>
+        <file>ico/55.ico</file>
+        <file>ico/56.ico</file>
+        <file>ico/57.ico</file>
+        <file>ico/58.ico</file>
+        <file>ico/59.ico</file>
+        <file>ico/60.ico</file>
+        <file>ico/61.ico</file>
+        <file>ico/62.ico</file>
+        <file>ico/63.ico</file>
+        <file>ico/64.ico</file>
+        <file>ico/65.ico</file>
+        <file>ico/66.ico</file>
+        <file>ico/67.ico</file>
+        <file>ico/68.ico</file>
+        <file>ico/69.ico</file>
+        <file>ico/70.ico</file>
+        <file>ico/71.ico</file>
+        <file>ico/72.ico</file>
+        <file>ico/73.ico</file>
+    </qresource>
+</RCC>
