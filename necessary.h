@@ -20,6 +20,7 @@
 #include <QList>
 #include <cstring>
 #include <string>
+#include <QMetaType>
 #include "log.h"
 
 //ThreadState

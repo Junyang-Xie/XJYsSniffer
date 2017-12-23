@@ -8,6 +8,7 @@ selectInterface::selectInterface(sniffer *psniffer, QWidget *parent) :
     QDialog(parent = 0),
     ui(new Ui::SelectInterface)
 {
+    (QObject::tr("SelectInterface"));
     ui->setupUi(this);
     s = psniffer;
 

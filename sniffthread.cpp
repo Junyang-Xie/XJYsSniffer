@@ -3,6 +3,7 @@
 void sniffThread::stop(){
     LOG("STOP");
     runstate=0;
+    flag = true;
 }
 
 void sniffThread::run(){
@@ -13,6 +14,7 @@ void sniffThread::run(){
     runstate = START;
     tm->clearAll();
     index = 1;
+    flag = false;
     LOG("start!");
     if(cap->Handle == NULL){
         LOG("Open the interface failed.");
@@ -24,6 +26,7 @@ void sniffThread::run(){
             emit stateIsChanged(runstate);
         }
         else if(runstate==2){
+            if(flag) break;
             msleep(100);
         }
         else{
@@ -410,6 +413,8 @@ void sniffThread::run(){
             }
         }
     }
+
+    LOG("Thread end");
 }
 
 void sniffThread::pause(){

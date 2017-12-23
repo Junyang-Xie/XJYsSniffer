@@ -13,6 +13,7 @@ MainWindow::MainWindow(QWidget *parent) :
     Status = STOP;
     cap = new sniffer;
     selectIfDialog = new selectInterface(cap,this);
+    selectIfDialog->setWindowTitle("Select Interface");
 
     treeModel = new QStandardItemModel;
     ui->treeView->setModel(treeModel);
@@ -119,11 +120,11 @@ void MainWindow::on_actionStop_toggled(bool arg1)
 {
     if(arg1){
         Status = STOP;
+        sThread->stop();
         ui->actionStop->setEnabled(false);
         ui->actionStart->setEnabled(true);
         ui->actionStart->setChecked(false);
         ui->actionSelectInterface->setEnabled(true);
-        sThread->stop();
     }
 }
 

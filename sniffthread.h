@@ -36,6 +36,7 @@ public:
     bool setRunState(int State);
 
 private:
+    bool flag;
     int index;
     volatile int runstate;
     sniffer *cap;
